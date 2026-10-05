@@ -14,7 +14,7 @@
 .sidebar {
   position: sticky;
   top: 0px; /* Distância do topo da tela quando grudar */
-  width: 250px;
+  width: 300px;
   background-color: #f4f4f4;
   padding: 20px;
   height: 100vh; /* Faz a barra lateral ocupar toda a altura da tela */
@@ -24,10 +24,15 @@
   flex: 1;
   background-color: #fff;
   padding: 20px;
-  height: 150vh; /* Apenas para criar rolagem na página */
+
 }
 
 p {
     text-indent: 25px;
     text-align: justify;
+}
+
+footer {
+    height: 20px;
+    width: 100vh;
 }
