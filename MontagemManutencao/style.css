@@ -1,7 +1,18 @@
+body {
+  background-image: url(./imagens/catprint.jpg);
+    
+}
 .header {
+    h1 {
+        text-align: left;
+        vertical-align: text-top;
+        color: #f0e9ff;
+        font-size: 40px;
+        background-color: #120a2a6b;
+    }
     padding: 20px;
     text-align: left;
-    background-image: url(./imagens/headergato.webp);
+    
     background-size: cover; 
     height: 100px;
 }
@@ -9,20 +20,23 @@
   display: flex;
   align-items: flex-start; /* Essencial para o sticky funcionar corretamente */
   gap: 20px;
+  h4 {
+    color: #b14ae6;
+  }
 }
 
 .sidebar {
   position: sticky;
   top: 0px; /* Distância do topo da tela quando grudar */
   width: 300px;
-  background-color: #f4f4f4;
+  background-color: #120A2A;
   padding: 20px;
   height: 100vh; /* Faz a barra lateral ocupar toda a altura da tela */
 }
 
 .content {
   flex: 1;
-  background-color: #fff;
+  background-color:#2F1C5A;
   padding: 20px;
 
 }
@@ -30,9 +44,19 @@
 p {
     text-indent: 25px;
     text-align: justify;
+    color: #f0e9ff;
 }
 
 footer {
-    height: 20px;
-    width: 100vh;
+  background-color: #5a3a9e;
+    height: 100lw;
+    width: 100lh;
+    p {
+        text-align: left;
+        color: #f0e9ff;
+    }
+}
+
+h2 {
+  color: #b14ae6;
 }
