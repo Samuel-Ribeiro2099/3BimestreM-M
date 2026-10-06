@@ -3,7 +3,7 @@
     text-align: left;
     background-image: url(./imagens/headergato.webp);
     background-size: cover; 
-    height: 200px;
+    height: 100px;
 }
 .container {
   display: flex;
